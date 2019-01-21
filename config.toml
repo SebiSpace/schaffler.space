@@ -52,7 +52,7 @@ pygmentsuseclasses         	= true
   author                   	= "Sebastian Schaffler-Glößl"
   description              	= ["Spaceflight enthusiast", "Robotics Engineer", "Future Martian"]           # appears in the site header when set to a non-empty string
   welcome_head             	= "My Blog"
-  welcome_word             	= "Entries are in te writing."
+  welcome_word             	= "Entries are in the writing."
 
   latestpostscount         	= 5                             # how many posts to display on the home page
   bloggroupby              	= 'month'
