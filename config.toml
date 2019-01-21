@@ -1,6 +1,6 @@
-baseURL 					= "https://schaffler.space/"
-languageCode 				= "en-us"
-title 						= "Sebastian Schaffler-Glößl"
+baseURL 					          = "https://schaffler.space/"
+languageCode 				        = "en-us"
+title 						          = "Sebastian Schaffler"
 canonifyurls               	= true
 contentdir                 	= "content"
 layoutdir                  	= "layouts"
