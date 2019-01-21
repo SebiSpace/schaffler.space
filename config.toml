@@ -1,3 +1,85 @@
-baseURL = "https://schaffler.space/"
-languageCode = "en-us"
-title = "Sebastian Schaffler"
+baseURL 					= "https://schaffler.space/"
+languageCode 				= "en-us"
+title 						= "Sebastian Schaffler-Glößl"
+canonifyurls               	= true
+contentdir                 	= "content"
+layoutdir                  	= "layouts"
+publishdir                 	= "public"
+enableEmoji                	= true
+hasCJKLanguage             	= true
+summaryLength              	= 200
+Paginate                   	= 3
+
+theme                      	= "AllinOne"
+
+pygmentsuseclasses         	= true
+
+
+[permalinks]
+  #blog                     	= "blog/:year-:month/:slug/"
+
+
+[taxonomies]
+  tag                      	= "tags"
+  series                   	= "series"
+  category                 	= "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   	= "About Me"
+    weight                 	= -120
+    identifier             	= "about"
+    url                    	= "about/"
+
+  [[menu.main]]
+    name                   	= "Projects"
+    weight                 	= -110
+    identifier             	= "projects"
+    url                    	= "projects/"
+
+  [[menu.main]]
+    name                   	= "Contact"
+    weight                 	= -100
+    identifier             	= "contact"
+    url                    	= "contact/"
+
+ 
+
+[params]
+  faviconfile              	= ""               # from static/
+  avatar                   	= "img/avatar.png"             # path to image in static dir e.g img/avatar.png 
+  author                   	= "Sebastian Schaffler-Glößl"
+  description              	= ["Spaceflight enthusiast", "Robotics Engineer", "Future Martian"]           # appears in the site header when set to a non-empty string
+  welcome_head             	= "My Blog"
+  welcome_word             	= "Entries are in te writing."
+
+  latestpostscount         	= 5                             # how many posts to display on the home page
+  bloggroupby              	= 'month'
+  dateform                 	= "Jan 2, 2006"
+  dateformfull             	= "2006-01-02  Monday  15:04:05"
+  noshowreadtime           	= false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            	= "static/img/header-slides"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         	= "img/header-slides"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              	= true
+
+  # latex
+  katex                    	= false
+
+  # links
+  email                    	= "se.schaffler@gmail.com"
+  github                   	= "//github.com/SebiSpace"
+  #linkedin                 	= "//linkedin.com/in/you"
+  #facebook                 	= "//facebook.com/you"
+  #googleplus               	= "//google.com/you"
+  twitter                  	= "//twitter.com/seschaffler"
+  #px500                    	= "//px500"
+  #instagram                	= "//instagram.com/you"
+  include_rss              	= false                          # include RSS <link> tag in <head> and show RSS icon
+  
+  # analytics
+  #googleAnalytics          = "your-google-analytic-id"
